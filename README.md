@@ -9,8 +9,6 @@ Estas instruções lhe permitirão obter uma cópia do projeto e executá-lo na 
 
 Por se tratar de um cliente, este projeto consome os serviços de uma API. No entanto, para testar e desenvolver esse projeto é possível que a API seja emulada pelo JSON SERVER, um programa que pode ser instalado na sua máquina através no comando `npm install json-server -g` e `npm install yarn -g`. O comando NPM, por sua vez, pode ser instalado através do comando `sudo apt install nodejs` (no GNU/LINUX distribuição Debian/Ubuntu/derivados).
 
-Após a instalação das ferramentas mencionadas, devem ser usados os arquivos para emular o banco de dados, seguindo os modelos contidos na pasta raiz `db_*.json` e a [documentação](https://github.com/typicode/json-server/blob/master/README.md) do Json-Server (exemplo no script `rodar_db` na raiz do projeto).
-
 ## Instalação
 
 Após o download deste projeto, dentro de sua pasta principal deve ser executado o comando `yarn`, para que seja feito o download e a instalação das dependências do projeto.
